@@ -4249,6 +4249,7 @@ input, select, textarea {
 
 	.image-row {
 		display: flex;
+		justify-content: center;
 	}
 	
 	.image-row img {
@@ -4273,4 +4274,16 @@ input, select, textarea {
 	.wordscapes img{
 		width: 500px;
 		height: 500px;
+	}
+
+	.sudoku {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sudoku img{
+		width: 550px;
+		height: 800px;
 	}
